@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    /* background-size: cover;
+    height: 100vh; */
+    background-position: center;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 70%;
+}
+.carousel-caption{
+padding-bottom:250px;
+    text-align: left;
+    line-height: 10px;
+}
+.pro{
+    margin-top: 100px;
+}
+/* .navbar{
+    background-color: rgb(238, 234, 234);
+} */
+
+nav{
+    
+    margin-top: 0;
+    background-color:#ddd ;
+    }
+    .navbar-brand{
+        padding-left: 20px;
+        font-family:'Ubuntu';
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black;
+        
+    
+    }
+    .nav-item{
+    padding: 10 18px;
+    }
+    .nav-link{
+       
+        font-size: 1.2rem;
+        font-family:'monospace-light';
+        color: black;
+    }
+.about{
+    text-align: center;
+padding-top: 100px;
+}
+.services{
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.btn{
+    margin-top: 0;
+    margin: auto;
+}
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+ 
+}
+
+.card{
+      
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+ifram{
+    margin-bottom: 10px;
+}
+
+.card{
+   
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-body img{
+    padding: 0;
+}
+.card-body{
+text-align: left;
+}
+footer{
+  margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    background-color: #ddd;
+}
+
+/* About Page */
+
+#about{
+    text-align: center;
+    padding:150px 100px 150px 100px;
+}
+.sada{
+    text-align: center;
+    background-color: rgb(223, 217, 217);
+    padding:150px 20px 150px 20px;
+    line-height: 30px;
+}
+.team{
+    text-align: center;
+    padding:150px 20px 150px 20px
+}
+.team img{
+    border: slategrey solid 5px;
+
+}
+
+/* Services */
+.pric{
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    
+    margin-bottom: 0;
+  
+}
+
+.serd{
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px;
+
+}
+
+/* Contact */
+#Contact{
+    text-align: left;
+    margin-top: 100px;
+}
+input:hover{
+    width: 90%;
+    border-color: rgb(218, 218, 31);
+    background-color: lightyellow;
+}
+ textarea:hover{
+    width: 90%;
+    border-color: rgb(218, 218, 31);
+    background-color: lightyellow;
+
+}
+@media(max-width:1028px){
+    .pro{
+        text-align: center;
+    }
+}
+
+@media(max-width:1028px){
+    .carousel-caption{
+        padding-bottom:0px;
+}
+}
+#immg {
+    height: 600px;
+}
